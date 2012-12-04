@@ -142,4 +142,4 @@ var SimpleAnim = A.Component.create(
 
 A.SimpleAnim = SimpleAnim;
 
-}, '@VERSION@' ,{requires:['aui-base'], skinnable:false});
+}, '@VERSION@' ,{skinnable:false, requires:['aui-base']});

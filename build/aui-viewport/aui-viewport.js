@@ -76,4 +76,4 @@ A.Viewport = {
 	_resizeHandle: resizeHandle
 };
 
-}, '@VERSION@' ,{requires:['aui-base'], skinnable:false});
+}, '@VERSION@' ,{skinnable:false, requires:['aui-base']});

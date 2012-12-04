@@ -250,4 +250,4 @@ var AceEditor = A.Component.create(
 
 A.AceEditor = AceEditor;
 
-}, '@VERSION@' ,{requires:['aui-component', 'aui-node'], skinnable:false});
+}, '@VERSION@' ,{skinnable:false, requires:['aui-component', 'aui-node']});

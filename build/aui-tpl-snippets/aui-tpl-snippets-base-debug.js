@@ -14,4 +14,4 @@ A.TplSnippets = {
 	}
 };
 
-}, '@VERSION@' ,{requires:['aui-template'], skinnable:false});
+}, '@VERSION@' ,{skinnable:false, requires:['aui-template']});

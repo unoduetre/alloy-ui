@@ -5914,5 +5914,5 @@ A.Drawing.prototype.safari = function() {
 }, '@VERSION@' ,{requires:['aui-drawing-base'], condition: {name: 'aui-drawing-safari', trigger: 'aui-drawing-base',test: function(A){var UA = A.UA; return UA.safari && (UA.version.major < 4 || (UA.iphone || UA.ipad));}}});
 
 
-AUI.add('aui-drawing', function(A){}, '@VERSION@' ,{skinnable:false, use:['aui-drawing-base', 'aui-drawing-animate', 'aui-drawing-drag', 'aui-drawing-fonts']});
+AUI.add('aui-drawing', function(A){}, '@VERSION@' ,{use:['aui-drawing-base', 'aui-drawing-animate', 'aui-drawing-drag', 'aui-drawing-fonts'], skinnable:false});
 
